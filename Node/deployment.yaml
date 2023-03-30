@@ -18,7 +18,7 @@ spec:
       name: node-pod
     spec: 
       containers: 
-        - image: "nodejshelloword:1.0"
+        - image: nodejshelloword:1.0
           name: node-container
           ports: 
             - containerPort: 8000
